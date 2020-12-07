@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    line-height: 24px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  h1,
+  h2 {
+    color: #ffae00;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 70px; 
+  }
+
+  main {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 110px 0;
+  }
+
+  main h1 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  section {
+    width: 50%;
+  }
+
+  .skill-count .line
+  .skill-count .number {
+    display: inline-block;
+  }
+
+  .skill-count .line {
+    background-color: #ffae00;
+    height: 5px;
+    vertical-align: bottom;
+  }
+
+  .skill-count .number {
+    width: 40px;
+    background-color: #ffae00;
+    color: #fff;
+    text-align: center;
+}
+
+  .line.ps {
+    width: calc(90% - 40px);
+  }
+
+  .line.li {
+    width: calc(85% - 40px);
+  }
+
+  .line.hc {
+    width: calc(89% - 40px);
+  }
+
+  .line.wd {
+    width: calc(87% - 40px);
+  }
+
+  .line.ui-ux {
+    width: calc(95% - 40px);
+  }
+
+  .conteiner {
+    display: flex;
+  }
+
+  .conteiner section:first-child {
+      margin-right: 80px;
+  }
+
+  .paragraph {
+    padding-bottom: 20px;
+  }
+
+  button {
+    background: #ffae00;
+    height: 40px;
+    width: 170px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 60px;
+  }
+
+  .skill-wrapper {
+    margin-bottom: 25px;
+  }
+
+  .skill-wrapper:last-child {
+    margin-bottom: 0;
+  }
+
+  .skill-count {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  footer {
+    background: #1d1c1c;
+    padding: 100px 0;
+  }
+
+  .footer-content {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-block {
+    max-width: 320px;
+    text-align: center;
+    color: white;
+    margin-right: 70px;
+  }
+
+  .footer-block:last-child {
+    margin-right: 0;
+  }
+
+  .orange-block {
+    background: #ffae00;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 15px 0;
+  }
+
+  .footer-block h3 {
+      margin: 40px 0;
+      font-size: 24px;
+  }
+  

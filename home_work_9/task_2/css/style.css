@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding-top: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.black {
+  width: 876px;
+  margin: 0 0 0 185px;
+  padding: 50px 0 50px 60px;
+  box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+  background-color: #181818;
+}
+
+.yellow {
+  width: 812px;
+  margin: 0 0 41px 249px;
+  padding: 22px 0 22px 42px;
+  box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fbc02d;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: left;
+  color: #fefefe;
+  border-right: 2px solid rgb(255 255 255 / 0.71);
+  width: fit-content;
+  padding-right: 10px;
+  line-height: 48px;
+  margin-top: 10px;
+}
+
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  letter-spacing: 4.8px;
+  text-align: left;
+  color: #767676;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h4 {
+  height: 30px;
+  margin: 21px 456px 55px 54px;
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
+  font-style: italic;
+  text-align: justify;
+  color: #8f8f8f;
+  font-weight: 400;
+}
+
+p {
+  margin: 39px 202px 36px 55px;
+  font-family: 'Noto Serif', serif;
+  font-size: 27px;
+  line-height: 1.48;
+  text-align: justify;
+  color: #000000;
+}
+
+h5 {
+  margin: 41px 794px 47px 56px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  letter-spacing: 4.38px;
+  text-align: left;
+  color: #b4b4b4;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 47px 210px 21px 58px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 78px;
+  font-weight: 800;
+  line-height: 0.94;
+  letter-spacing: 4.13px;
+  text-align: left;
+  color: #2a2a2a;
+  text-transform: uppercase;
+}
+
+.vl {
+  width: 2px;
+  height: 830px;
+  margin: -830px 1200px 0 0;
+  background-color: #e8eced;
+}
+
+hr {
+  width: 816px;
+  height: 3px;
+  margin: 18px 0 0;
+  opacity: 0.1;
+  background-color: #ffffff;
+}
+
+img {
+  opacity: 0.5;
+  height: 27px;
+  margin-right: 32px;
+  transition: all 500ms ease;
+}
+
+img:last-child {
+  margin: 0;
+}
+
+img:hover, .active {
+  opacity: 1;
+}

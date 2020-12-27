@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="main">
+    <div class="form">
+      <div class="form__header--tabs">
+        <div class="form__header--tabs-item active-item">Sign in</div>
+        <div class="form__header--tabs-item">Join us</div>
+      </div>
+      <div class="form__body">
+        <form action="">
+          <div class="form__field">
+            <label for="user-name">Username</label>
+            <input class="form__field--field" type="text" name="user-name" id="user-name" required>
+          </div>
+          <div class="form__field">
+            <label for="password">Password</label>
+            <input class="form__field--field" type="password" name="password" id="password" required>
+          </div>
+          <div class="form__field--checkbox">
+            <input type="checkbox" id="myCheckbox"/>
+            <label for="myCheckbox">Keep me signed in</label>
+          </div>
+          <button class="button" type="submit">Sign in</button>
+          <div class="form__links">
+            <a href="#">Forgot password</a>
+            <a href="#">Create an account</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

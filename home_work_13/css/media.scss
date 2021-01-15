@@ -1,0 +1,348 @@
+@media screen and (max-width: 1440px) {
+  .main {
+    &__content {
+      &--logo {
+        width: 50px;
+      }
+
+      &--title {
+        margin-top: 40px;
+        font-size: 35px;
+        letter-spacing: 6px;
+      }
+
+      &--subtitle {
+        margin-top: 35px;
+        font-size: 13px;
+      }
+    }
+  }
+
+  .about {
+    padding: 100px 10px;
+
+    &__content {
+      &--title {
+        padding: 0 70px;
+      }
+    }
+  }
+
+  .services {
+    padding: 100px 10px;
+  }
+
+  .we_do {
+    padding: 100px 10px;
+
+    &__content {
+      padding: 50px 10px;
+
+      &--block {
+        margin-bottom: 40px;
+
+        img {
+          height: 50px;
+        }
+
+        h3 {
+          margin: 20px 0;
+          font-size: 18px;
+          letter-spacing: 2px;
+        }
+
+        p {
+          font-size: 13px;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding: 100px 10px 0 10px;
+
+    &__content {
+      padding-top: 50px;
+
+      &--title {
+        padding: 0 60px;
+      }
+
+      &--paragraph {
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      &--button {
+        margin: 35px 0;
+        width: 300px;
+      }
+    }
+  }
+
+  .works {
+    &__content {
+      &--block {
+        width: 49%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .footer__content--copyright {
+    padding: 35px 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    &__image{
+      display: none;
+    }
+
+    &__content {
+      padding: 10px;
+      background: url(../images/hero-bg.png) no-repeat;
+      background-size: cover;
+      background-position: right bottom;
+      position: static;
+
+      &--title {
+        margin-top: 30px;
+        font-size: 25px;
+        letter-spacing: 4px;
+      }
+
+      &--subtitle {
+        font-size: 11px;
+      }
+    }
+  }
+  
+
+  .about {
+    
+    &__content {
+      padding: 30px 10px;
+
+      &--title {
+        padding: 0 19px;
+        font-size: 19px;
+      }
+
+      &--paragraph {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .services {
+
+    &__content {
+      padding: 30px 10px;
+
+      &--title {
+        padding: 0 19px;
+        font-size: 19px;
+
+        &::before,
+        &::after {
+          width: 25%;
+        }
+      }
+
+      &--paragraph {
+        font-size: 13px;
+      }
+    }
+    
+  }
+
+  .we_do {
+
+    &__content {
+      padding: 30px 10px;
+
+      &--title {
+        padding: 0 19px;
+        font-size: 19px;
+      }
+
+      &--block {
+        margin-bottom: 30px;
+
+        img {
+          height: 45px;
+        }
+
+        h3 {
+          margin: 15px 0;
+          font-size: 17px;
+        }
+
+        p {
+          font-size: 12px;
+          line-height: 1.6;
+        }
+      }
+    }
+    
+  }
+
+  .works {
+
+    &__content {
+      margin: 0 10px;
+
+      &--block {
+        height: 150px;
+
+        span {
+          margin: 120px 0 0 20px;
+          font-size: 17px;
+          letter-spacing: 2.44px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    
+    &__content {
+      &--title {
+        padding: 0 19px;
+        font-size: 19px;
+        white-space: nowrap;
+      }
+
+      &--paragraph {
+        font-size: 13px;
+      }
+
+      &--button {
+        font-size: 13px;
+        letter-spacing: 1.56px;
+        width: 270px;
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .about {
+    padding: 50px 10px;
+    
+    &__content {
+      padding: 0;
+      border: none;
+      
+      &--title{
+        position: static;
+        transform: none;
+        order: 1;
+        margin-bottom: 20px;
+      }
+
+      &--paragraph{
+        order: 2;
+      }
+    }
+  }
+
+  .services {
+    padding: 50px 10px;
+
+    &__content {
+      padding: 0;
+      border: none;
+      
+      &--title {
+        position: static;
+        transform: none;
+        order: 1;
+        margin-bottom: 20px;
+
+        &::after, &::before {
+          display: none;
+        }
+      }
+
+      &--paragraph {
+        order: 2;
+      }
+    }
+  }
+
+  .we_do {
+    padding: 50px 10px;
+
+    &__content {
+      padding: 0;
+      border: none;
+      
+      &--title {
+        position: static;
+        transform: none;
+        order: 1;
+        margin-bottom: 20px;
+
+        &::after, &::before {
+          display: none;
+        }
+      }
+
+      &--block {
+        order: 2;
+      }
+    }
+  }
+
+  .works {
+ 
+    &__content {
+
+      &--block {
+        width: 100%;
+        margin-bottom: 10px !important;
+      }
+    }
+  }
+
+  .footer {
+    padding: 50px 10px 0 10px;
+
+    &__content {
+      padding: 0;
+      border: none;
+      
+      &--title {
+        position: static;
+        transform: none;
+        order: 1;
+        margin-bottom: 20px;
+
+        &::after, &::before {
+          display: none;
+        }
+      }
+
+      &--paragraph {
+        order: 2;
+      }
+
+      &--button {
+        order: 3;
+      }
+    }
+  }
+
+  .footer__content--copyright {
+    
+    span {
+      margin-left: 20px;
+    }
+  }
+}

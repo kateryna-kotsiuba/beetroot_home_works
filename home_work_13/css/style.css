@@ -27,7 +27,7 @@
 }
 
 .main__content--container {
-  height: 70%;
+  min-height: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,6 +53,7 @@
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 10px;
   max-width: 590px;
 }
 
@@ -63,11 +64,11 @@
 /* about */
 
 .about {
-  padding: 160px 0;
+  padding: 160px 10px;
 }
 
 .about__content {
-  width: 902px;
+  max-width: 902px;
   border: solid 2px #3c3c3c;
   margin: 0 auto;
   position: relative;
@@ -113,13 +114,13 @@
 
 .services {
   background: url(../images/services.png) no-repeat;
-  padding: 160px 0;
+  padding: 160px 10px;
   background-size: auto 100%;
   background-position: right;
 }
 
 .services__content {
-  width: 902px;
+  max-width: 902px;
   border: solid 2px #ffffff;
   border-top: none;
   margin: 0 auto;
@@ -187,11 +188,11 @@
 /* we_do */
 
 .we_do {
-  padding: 160px 0;
+  padding: 160px 10px;
 }
 
 .we_do__content {
-  width: 902px;
+  max-width: 902px;
   border: solid 2px #3c3c3c;
   margin: 0 auto;
   position: relative;
@@ -276,29 +277,29 @@
 }
 
 .works__content--block:nth-child(1) {
-  background: url(../images/Layer\ 1\ copy.png);
+  background-image: url(../images/Layer\ 1\ copy.png);
 }
 
 .works__content--block:nth-child(2) {
-  background: url(../images/Layer\ 2\ copy.png);
+  background-image: url(../images/Layer\ 2\ copy.png);
 }
 
 .works__content--block:nth-child(3) {
-  background: url(../images/Layer\ 3\ copy\ .png);
+  background-image: url(../images/Layer\ 3\ copy\ .png);
 }
 
 .works__content--block:nth-child(4) {
-  background: url(../images/Layer\ 4\ copy\ .png);
+  background-image: url(../images/Layer\ 4\ copy\ .png);
   margin-bottom: 0;
 }
 
 .works__content--block:nth-child(5) {
-  background: url(../images/Layer\ 5\ copy\ .png);
+  background-image: url(../images/Layer\ 5\ copy\ .png);
   margin-bottom: 0;
 }
 
 .works__content--block:nth-child(6) {
-  background: url(../images/Layer\ 6\ copy.png);
+  background-image: url(../images/Layer\ 6\ copy.png);
   margin-bottom: 0;
 }
 
@@ -314,7 +315,7 @@
 }
 
 .footer__content {
-  width: 902px;
+  max-width: 902px;
   border: solid 2px #3c3c3c;
   margin: 0 auto;
   position: relative;
@@ -349,7 +350,6 @@
 }
 
 .footer__content--button {
-  width: 121px;
   font-size: 16px;
   letter-spacing: 2.56px;
   text-align: center;

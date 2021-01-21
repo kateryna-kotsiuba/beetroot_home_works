@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue\ Regular.otf") format('opentype');
+  font-weight: 400;
+ }
+
+ @font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue\ Light.otf") format('opentype');
+  font-weight: 200;
+ }
+
+ @font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue\ Bold.otf") format('opentype');
+  font-weight: 700;
+ }
+
+.main {
+  background-color: #9789f9;
+  font-family: "Bebas Neue", cursive;
+  color: #181818;
+  padding: 50px 0 50px 0;
+  height: 100vh;
+}
+
+.content-item {
+  background-color: #f4f2f8;
+  line-height: 36px;
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__dollar {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-40px);
+    z-index: 0;
+    top: 30px;
+
+    &--popular {
+      top: 40px;
+    }
+  }
+
+  &__price {
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: 200;
+    line-height: 60px;
+    margin-top: 40px;
+
+    &--popular {
+      margin-top: 50px;
+    }
+  }
+
+  &__hr {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    position: absolute;
+    left: 50%;
+    transform: translateX(25px);
+    z-index: 0;
+    top: 62px;
+
+    &--popular {
+      top: 75px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__text-block {
+    margin-bottom: 80px;
+
+    ul {
+      position: relative;
+      z-index: 1;
+      list-style: none;
+      padding: 0;
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 0;
+
+      li {
+        line-height: 53px;
+        font-weight: 300;
+      }
+    }
+  }
+
+  &__icon {
+    margin: 130px 0 40px 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .link-btn {
+    width: 203px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #6fcffb;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 53px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    &--popular {
+      background-color: #fd8d7b;
+      bottom: 95px;
+    }
+  }
+
+  &__circle {
+    position: absolute;
+    width: 135%;
+    height: 400px;
+    background-color: #fff;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    bottom: 60px;
+
+    &--popular {
+      bottom: 91px;
+      height: 430px;
+    }
+  }
+
+  &__discount {
+    font-size: 11px;
+    line-height: 53px;
+    color: #a9a9a9;
+    font-weight: 300;
+    font-family: "Roboto";
+  }
+
+  &__circle-mini {
+    width: 46px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #fd8d7b;
+    position: absolute;
+    right: 11%;
+    transform: translateX(25px);
+    z-index: 2;
+    top: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 6px;
+  }
+
+  &__circle-mini--2 {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #fd8d7b;
+    position: absolute;
+    right: 3%;
+    -webkit-transform: translateX(25px);
+    transform: translateY(-16px);
+    top: 28px;
+  }
+
+  &__circle-mini--3 {
+    width: 6px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #fd8d7b;
+    position: absolute;
+    right: 6%;
+    -webkit-transform: translateX(25px);
+    transform: translateX(20px);
+    z-index: 0;
+    top: 6px;
+  }
+
+  &__tooltip {
+    position: absolute;
+    left: 55px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #3b4040;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 400;
+
+    &::after {
+      content: ' ';
+      position: absolute;
+      left: -8px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-right: 10px solid #3b4040;
+      border-bottom: 5px solid transparent;
+    }
+  }
+}
